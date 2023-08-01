@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        
+        <h1>Valentina Dinardi </h1> 
+        <div class="imagen">
+        <p class="bloque" id="descripcion">Estoy en mi primer año de la carrera de Licenciatura en Tecnologías de la Información de UTEC, a su vez estoy cursando Jóvenes a Programar. <br>
+        Busco incorporarme en el sector de las TI ya que me parece un área dinámica en la cual siempre nos encontramos con algo nuevo. <br>
+        Mi objetivo es continuar aprendiendo y lograr especializarme. <br>
+        Me caracterizo por ser una persona con gran adaptabilidad al cambio y tolerancia a la presión, me gusta ser líder de proyecto utilizando el pensamiento estratégico.</p>
+        <img src="ilustracion.png" alt="ilustracion">
+        </div>
+        
+        <hr>
+            
+        <!--Los utilizamos para poder ir a cada parte del cv a partir del link, es un índice-->
+        
+        <ul class="bloque" id="indice">
+            <li><a href="#habilidadesYConocimientos"><strong>Habilidades y conocimientos</strong></a></li>
+            <li><a href="#educacion"><strong>Educación</strong></a></li>
+            <li><a href="#perfilesSociales"><strong>Perfiles sociales</strong></a></li>
+            <li><a href="#contactar"><strong>Contactar</strong></a></li>
+        </ul>
+
+        <hr>
+
+
+        <!--Lista de habilidades Y Conocimientos-->
+            
+            <h2 id="habilidadesYConocimientos">Habilidades y conocimientos </h2>
+            <ul class="bloque"> 
+                <li><strong>Inglés: </strong>C1</li>
+                <li><strong>Chino: </strong>Básico</li>
+                <li><strong>Java</strong></li>
+                <li><strong>SQL</strong></li>
+                <li><strong>Desarrollo web: </strong>HTML5, CSS, JavaScript</li>
+            </ul>    
+        <hr> 
+
+        <h2 id="educacion">Educación</h2>
+        <table class="bloque">
+            <tr>
+                <th>Título</th>
+                <th>Entidad</th>
+                <th>Promoción</th>
+            </tr>
+            <tr>
+                <td>Licenciatura en Tecnologías de la Información</td>
+                <td>UTEC</td>
+                <td>2023 - Presente</td>
+            </tr>
+
+            <tr>
+                <td>Fase 2 - Desarrollo web</td>
+                <td>Plan Ceibal (Jóvenes a programar)</td>
+                <td>2023 - Presente</td>
+            </tr>
+
+            <tr>
+                <td>Fase 1</td>
+                <td>Plan Ceibal (Jóvenes a programar)</td>
+                <td>2023</td>
+            </tr>
+
+            <tr>
+                <td>Bachillerato</td>
+                <td>Liceo Nº 1 Nilo L. Goyoaga</td>
+                <td>2020 - 2022</td>
+            </tr>
+            
+        </table>
+
+        <hr>
+
+        <h2 id="perfilesSociales">Perfiles sociales</h2>
+
+        <div class="bloque"> 
+        <p id="encontrarme">También puedes encontrarme en:  </p>
+        
+        <ul id="perfiles">
+            <li><a href="https://github.com/valentinadinardi" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/valentina-dinardi-9376b226a/">Linkedin</a></li>
+        </ul>
+        </div>
+
+        <hr>
+    
+        <h2 id="contactar">Contactar</h2>
+    
+        <form action="#"class="bloque" >
+            
+            <p>Para:
+                <input type="text" name="para" size="20" required>
+            </p>
+
+            <label for="contacto">Temática: </label>
+            <select name="contacto" id="contacto" required>
+                <option disabled selected>-- Elige un tema --</option>
+                <option value="Consulta">Consulta</option>
+                <option value="Propuesta">Propuesta</option>
+                <option value="Reporte">Reporte</option>
+                <option value="Otro">Otro</option>
+            </select>
+        
+            <p>Asunto:
+                <input type="text" name="asunto" size="30" required>
+            </p>        
+            
+            <p>Cuerpo:
+                <textarea name="cuerpo" cols="32" rows="2" required></textarea>
+                <input class="boton" type="button" value="Enviar"/>
+            </p>
+        </form>
+        </div>
+    </body>
+</html>
